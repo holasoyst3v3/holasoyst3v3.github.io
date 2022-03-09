@@ -1,11 +1,45 @@
 html {
-    background-color: #212121;
-    height: 100%;
-    overflow: hidden;
+  background-color: #141414;
+  text-align: center;
+  height: auto;
+  overflow: hidden;
+}
+
+h1 {
+  text-decoration: none;
+  width: auto;
+  font-size: 30px;
+  color: #1d9c03;
+  font-family: "Quicksand", sans-serif;
+}
+
+.nav {
+  text-decoration: none;
+  margin: 2px;
+  height: 27px;
+  width: auto;
+  border: none;
+  background-color: rgba(1, 192, 1, 0.808);
+  border-radius: 6px;
+  color: #1d9c03;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+}
+
+button {
+  height: 24px;
+  width: auto;
+  margin-bottom: 1px;
+  border: none;
+  background-color: #bbbbbb;
+  border-radius: 6px;
+  color: #3c0585;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
 }
 
 body {
-    margin:0;
-    padding: 0;
-    height: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
