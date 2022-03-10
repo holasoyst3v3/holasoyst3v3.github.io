@@ -6,6 +6,7 @@ const context = canvas.getContext("2d");
 canvas.width = window.outerWidth;
 canvas.height = window.outerHeight;
 
+
 const katakana =
   "アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトホモヨョロヲゴゾドボポヴッン";
 const latin = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

@@ -1,0 +1,6 @@
+<div className="toysNStuff">
+            <h1>Toys N' Stuff</h1>
+            <div className="img-up">
+                <div>
+                    <iframe src="https://drive.google.com/file/d/1js79ojQvIqJMISwFlndJ1xPfc_5rmoVx/preview" width="750"
+                        height="450" allow="autoplay"></iframe>
