@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles.css" />
-    <title>UNDER CONSTRUCTION</title>
+    <title>Stephen Estrada WEBDEV</title>
 </head>
 <header>
     <h1 className="logo">STEPHEN ESTRADA WEB DEVELOPER</h1>
     <h3 style="color: #1d9c03">Contact info??</h3>
     <nav>
-        <button>Contact me!</button>
-        <button>Resume</button>
+        <button><a href="mailto:s.ljr.estrada@gmail.com">Contact me!</a></button>
+        <button><a
+                href="https://docs.google.com/document/d/1-02CKK88zmzamZ_Ai9OtyV4IV8uWpPTpRxtJqtR2mq0/edit?usp=sharing"
+                target="_blank">Resume</a></button>
     </nav>
 </header>
 
 <body>
-    <canvas id="digitalRain" height="160px">
-    </canvas>
     <a href="https://github.com/holasoyst3v3" class="github-corner" aria-label=" GitHub" tabindex="-1" target="_blank"
         rel="noopener noreferrer">
         <svg width="80" height="80" viewBox="0 0 250 250" style="
@@ -78,20 +78,27 @@
             <h1>Toys N' Stuff</h1>
             <div className="img-up">
                 <div>
-                    <iframe src="https://drive.google.com/file/d/1js79ojQvIqJMISwFlndJ1xPfc_5rmoVx/preview" width="750"
-                        height="450" allow="autoplay"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1js79ojQvIqJMISwFlndJ1xPfc_5rmoVx/preview" width="1200"
+                        height="725" allow="autoplay"></iframe>
                 </div>
             </div>
             <div className="card-container">
                 <div className="item-card">
                     <div className="card-text-container">
-                        <h2>{props.title}</h2>
-                        <p>{props.desc}</p>
+                        <h2><a href="https://toysnstuffapp.herokuapp.com/">Toysnstuff Web App</a></h2>
+                        <p><a href="https://github.com/holasoyst3v3/ToysNStuff">Click for Github Repo</a></p>
                         <p>Sold by: {props.seller}</p>
-                        <p>Price: ${props.price}</p>
-                    </div>
-                    <div className="card-button-container">
-                        <button onClick={favbtn}>💙</button>
+                        <p>Tech used:
+                            - Axios
+                            - BCrypt
+                            - Cors
+                            - Express
+                            - Formik
+                            - PG
+                            - P H-store
+                            - React Router
+                            - React Router Dom
+                            - Sequelize</p>
                     </div>
                 </div>
             </div>
@@ -100,20 +107,39 @@
             <h1>Daddy & Me</h1>
             <div className="img-up">
                 <div>
-                    <iframe src="https://drive.google.com/file/d/1tGa36vUr_397p92g0aFSFklKIZKLd0i5/preview" width="750"
-                        height="450" allow="autoplay"></iframe>
+                    <iframe width="1200" height="725"
+                        src="https://drive.google.com/file/d/1tGa36vUr_397p92g0aFSFklKIZKLd0i5/preview"></iframe>
                 </div>
             </div>
             <div className="card-container">
                 <div className="item-card">
                     <div className="card-text-container">
-                        <h2>{props.title}</h2>
-                        <p>{props.desc}</p>
+                        <h2><a href="https://daddyandme.herokuapp.com">Daddy & Me Web App</a></h2>
+                        <p><a href="https://github.com/holasoyst3v3/DaddyAndMe">Click for Github Repo</a></p>
                         <p>Sold by: {props.seller}</p>
                         <p>Price: ${props.price}</p>
                     </div>
-                    <div className="card-button-container">
-                        <button onClick={favbtn}>💙</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div className="Digital Rain Canvas">
+                <h1>Digital Rain Canvas</h1>
+                <div className="img-up">
+                    <div>
+                        <canvas id="digitalRain" height="160px">
+                        </canvas>
+                    </div>
+                </div>
+                <div className="card-container">
+                    <div className="item-card">
+                        <div className="card-text-container">
+                            <h2><a href="https://daddyandme.herokuapp.com">Daddy & Me Web App</a></h2>
+                            <p><a href="https://github.com/holasoyst3v3/holasoyst3v3.github.io/blob/main/index.js">Click
+                                    for source code</a></p>
+                            <p>Sold by: {props.seller}</p>
+                            <p>Price: ${props.price}</p>
+                        </div>
                     </div>
                 </div>
             </div>
