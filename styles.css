@@ -1,13 +1,25 @@
 html {
   background-color: #292929;
   height: auto;
+  width: auto;
   text-align: center;
   /* overflow: hidden; */
 }
 
+nav {
+  width: auto;
+  padding: 0px;
+  height: 30px;
+  width: auto;
+  border: solid;
+  background-color: rgba(1, 192, 1, 0.808);
+  border-radius: 6px;
+  color: #1d9c03;
+}
+
 canvas {
-  height: 80vh;
-  width: 80vw;
+  height: auto;
+  width: auto;
   z-index: -1;
 }
 
@@ -15,19 +27,25 @@ h1,
 h2,
 h3 {
   text-decoration: none;
-  width: auto;
   color: #1d9c03;
   font-family: "Quicksand", sans-serif;
 }
 
 p {
   text-decoration: none;
-  width: auto;
   color: #1d9c03;
+  width: auto;
+  word-wrap: normal;
+  align-content: center;
   font-family: "Quicksand", sans-serif;
 }
 
-.nav {
+iframe {
+  width: auto;
+  height: auto;
+}
+
+/* .nav {
   text-decoration: none;
   margin: 2px;
   height: 27px;
@@ -38,10 +56,10 @@ p {
   color: #1d9c03;
   font-size: 15px;
   font-family: "Quicksand", sans-serif;
-}
+} */
 
 button {
-  height: 24px;
+  height: auto;
   width: auto;
   margin-bottom: 1px;
   border: none;
@@ -52,19 +70,19 @@ button {
   font-family: "Quicksand", sans-serif;
 }
 
-a:link {   
+a:link {
   color: #1d9c03;
   text-decoration: none;
   border-bottom: 0px solid;
 }
-a:visited {    
+a:visited {
   color: #1d9c03;
 }
-a:hover {    
+a:hover {
   color: #fb0000;
   border-bottom: none;
 }
-a:active {   
+a:active {
   color: #00ffff;
 }
 
@@ -72,6 +90,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  width: 85%;
+  background-color: rgb(88, 88, 88);
 }
 
 .projects {
