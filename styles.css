@@ -17,11 +17,11 @@ nav {
   color: #1d9c03;
 }
 
-canvas {
+/* canvas {
   height: auto;
   width: auto;
   z-index: -1;
-}
+} */
 
 h1,
 h2,
@@ -41,8 +41,8 @@ p {
 }
 
 iframe {
-  width: auto;
-  height: auto;
+  max-width: 1000px;
+  max-height: 550px;
 }
 
 /* .nav {
@@ -87,17 +87,13 @@ a:active {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 85%;
+  margin: 80px;
+  padding: 15px;
   background-color: rgb(88, 88, 88);
-}
-
-.projects {
-  /* display: flex; */
-  width: auto;
-  border: solid;
-  border-style: solid;
-  border-color: aliceblue;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }

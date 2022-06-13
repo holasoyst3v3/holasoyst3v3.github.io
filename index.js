@@ -3,9 +3,8 @@
 const canvas = document.getElementById("digitalRain");
 const context = canvas.getContext("2d");
 
-canvas.width = window.outerWidth;
-canvas.height = window.outerHeight;
-
+canvas.width = 1200;
+canvas.height = 750;
 
 const katakana =
   "アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトホモヨョロヲゴゾドボポヴッン";
