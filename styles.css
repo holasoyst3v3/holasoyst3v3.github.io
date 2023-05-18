@@ -65,7 +65,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* justify-content: center; */
 }
 
 a:link {
