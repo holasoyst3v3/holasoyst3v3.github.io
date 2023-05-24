@@ -1,6 +1,6 @@
 html {
     height: auto;
-    min-width: 1134px;
+    min-width: 1056px;
 }
 
 header {
@@ -11,7 +11,7 @@ header {
     left: 0;
     padding: 5px;
     width: 100%;
-    min-width: 500px;
+    min-width: 1045px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -50,16 +50,15 @@ nav {
 }
 
 body {
-    margin: 50px;
     text-align: center;
 }
 
-.about {
-    display: flex;
+/* .about {
     flex-direction: row;
+    display: flex;
     justify-content: center;
     align-content: center;
-}
+} */
 
 .card {
     width: auto;
@@ -67,9 +66,9 @@ body {
     border-radius: 5px;
     box-shadow: 8px 4px 22px 9px #3b3b3b;
     background-color: rgba(131, 139, 142, 0.31);
-    padding: 25px;
+    padding: 17px;
     margin: 100px;
-    margin-inline: 250px;
+    margin-inline: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
