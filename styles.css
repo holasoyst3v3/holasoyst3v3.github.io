@@ -36,10 +36,16 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid rgb(219, 219, 219);
+    border: 1px solid rgb(219, 219, 219);
     border-radius: 50px;
-    box-shadow: 8px 4px 22px 9px rgb(0, 100, 140);
+    box-shadow: 3px 0px 22px 9px rgb(1, 122, 169);
     background-color: rgb(219, 219, 219);
+}
+
+.nav-wrapper:hover {
+        cursor: pointer;
+        transform: scale(1.35);
+        box-shadow: 3px 0px 22px 9px rgb(255, 255, 255);
 }
 
 body {
