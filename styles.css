@@ -1,6 +1,6 @@
 html {
     height: auto;
-    width: auto;
+    min-width: 1134px;
 }
 
 header {
@@ -11,6 +11,7 @@ header {
     left: 0;
     padding: 5px;
     width: 100%;
+    min-width: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -65,6 +66,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* justify-content: center; */
 }
 
 a:link {
@@ -110,7 +112,7 @@ p {
     font-family: "Quicksand", sans-serif;
 }
 
-iframe {
+/* iframe {
     max-width: 1000px;
     max-height: 550px;
-}
+} */
